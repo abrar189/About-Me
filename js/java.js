@@ -44,18 +44,20 @@ if (ask2 == 'yes' || ask2 == 'y' ){
 
 alert('welcome ' + userName + " thank's for your time");
 
-alert( 'you guess a number it must be high')
-let x=1000
-let ask6 = prompt('now, can you guess a number?');
-for (let i = 1; i < 4; i++) {
-    if (ask6 == 1000){
-    alert('you are hero');
+let x=10
+for (let i = 1; i < 4;i++) {
+    let num = parseInt(prompt('can you guess my number'))
+    if (num === x ){
+    alert('you are correct');
     score++;
     break;}
-else {
-      ask6 = prompt('now, can you guess a number?');}
-} 
-alert('correct number is 1000')
+else if (num > x) {
+alert('too high')} 
+else if(num < x){
+    alert('too low')
+}
+}
+alert('correct number is 10')
     
 let ask7 =prompt('How many players in the football team ?');
 let players = [11,14,10,20];
