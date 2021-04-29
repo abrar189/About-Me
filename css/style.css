@@ -1,15 +1,23 @@
-h1 {text-align: center;color: rgb(98, 123, 161);}
+h1 { font-family: 'Dancing Script', cursive;
+     text size: 100px ;
+  
+    color: rgb(19, 70, 73);
+    text-align: center;}
 img{
-   block-size: 100px;
+   block-size: 300px;
+  
+
 }
 
 p{
     border:8px solid blueviolet;
 background-color:cadetblue ;
+font-family: 'Dancing Script', cursive;
 }
 
  ol li {
      color: rgb(57, 20, 220);
+     font-family: 'Dancing Script', cursive;
 }
 ul li {
 background-color: cadetblue;
