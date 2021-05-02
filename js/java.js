@@ -8,7 +8,7 @@ function q1() {
 
     let ask1 = prompt('do you like football?').toLowerCase();
     if (ask1 == 'yes' || ask1 == 'y') {
-        console.log('yes');
+       
         alert('your Answer is yes ');
         score++;
     } else {
@@ -21,7 +21,7 @@ function q1() {
 function q2() {
 
     let ask2 = prompt('Is your favorite club is Real Madrid?').toLowerCase();
-    console.log('yes');
+    
     if (ask2 == 'yes' || ask2 == 'y') {
         alert('your Answer is yes ');
         score++;
@@ -44,7 +44,7 @@ function q3() {
 function q4() {
 
     let ask4 = prompt('Is your favorite club is Barcelona?').toLowerCase();
-    console.log('yes');
+    
     if (ask4 == 'yes' || ask4 == 'y') {
         alert('your Answer is yes ');
         score++;
